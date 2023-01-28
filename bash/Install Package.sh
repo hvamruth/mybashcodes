@@ -1,0 +1,1 @@
+sudo apt install aircrack-ng nikto hydra metasploit burpsuite patator php7.4 apache2 wpscan dirsearch dirb dirbuster
