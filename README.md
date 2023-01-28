@@ -1,0 +1,2 @@
+# mybashcodes
+Linux Bash codes
