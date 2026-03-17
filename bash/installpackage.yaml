@@ -1,0 +1,23 @@
+id: install-security-tools
+name: Install Security Tools
+description: Install common penetration testing tools
+
+steps:
+  - name: Update package list
+    run: sudo apt update
+
+  - name: Install tools
+    run: |
+      sudo apt install -y \
+        aircrack-ng \
+        nikto \
+        hydra \
+        metasploit-framework \
+        burpsuite \
+        patator \
+        php7.4 \
+        apache2 \
+        wpscan \
+        dirsearch \
+        dirb \
+        dirbuster
